@@ -46,6 +46,17 @@ body {
   width: 100%;
   position: relative;
   margin-right: 0;
+  margin-top: -9px;
+  margin-left: 0px;
+  background-image: url('tela3.png');
+  background-repeat: no-repeat;
+}
+#content h1{
+  margin-left: 100px;
+  text-align: 300px;
+  color: white;
+  padding-top: 35px;
+  text-transform: uppercase;
 }
 
 /* Sidebar Styles */
@@ -54,8 +65,8 @@ body {
   z-index: 1000;
   position: fixed;
   left: 250px;
-  width: 250px;
-  height: 100%;
+  width: 280px;
+  
   margin-left: -250px;
   overflow-y: auto;
   background: #37474F;
@@ -64,6 +75,7 @@ body {
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
   margin-top: -8px;
+  height: 100%;
 }
 
 #sidebar header {
@@ -133,13 +145,40 @@ body {
   background-color: rgba(37,131,69,1);
 }
 
+
     </style>
 
     <div id="viewport">
         <!-- Sidebar -->
         <div id="sidebar">
           <header>
-            <a href="#" style="color:white;">Quadro de Licitações</a>
+            <a href="#" style="color:white;">Graficos</a>
+          </header>
+          <ul class="nav">
+            <li>
+              <a href="#">
+                <i class=""></i> Dias Quentes
+              </a>
+            </li>
+            <li>
+              <a href="#">
+               <i class=""></i> Ranks de empresas
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class=""></i> contratados
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class=""></i> contratos
+              </a>
+            </li>
+            
+          </ul>
+          <header>
+            <a href="#" style="color:white;">Base de dados </a>
           </header>
           <ul class="nav">
             <li>
@@ -178,10 +217,12 @@ body {
               </a>
             </li>
           </ul>
+          
         </div>
+        
         <!-- Content -->
         <div id="content">
-          <img src="tela3.png"> 
+          <h1>Quadro de Licitações</h1>
           <nav class="navbar navbar-default">
             <div class="container-fluid">
               <ul class="nav navbar-nav navbar-right">
@@ -190,12 +231,9 @@ body {
               </ul>
             </div>
           </nav>
-          <div class="container-fluid">
-            <img src="tela3.png"> 
-            AQUI FICA O GRAFICO 
-
+          <
             <!-- HTML -->
-    <div id="chartdiv"></div>
+          <div id="chartdiv"></div>
           </div>
         </div>
       </div>
