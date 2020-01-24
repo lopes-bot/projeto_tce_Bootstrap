@@ -9,7 +9,7 @@
     <title>Dashboard</title>
 
     <!-- Principal CSS do Bootstrap -->
-
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
   <script src="node_modules/jquery/dist/jquery.js"></script>
   <script src="node_modules/popper.js/dist/umd/popper.js"></script>
@@ -181,6 +181,7 @@ body {
         </div>
         <!-- Content -->
         <div id="content">
+          <img src="tela3.png"> 
           <nav class="navbar navbar-default">
             <div class="container-fluid">
               <ul class="nav navbar-nav navbar-right">
@@ -190,6 +191,7 @@ body {
             </div>
           </nav>
           <div class="container-fluid">
+            <img src="tela3.png"> 
             AQUI FICA O GRAFICO 
 
             <!-- HTML -->
@@ -218,74 +220,9 @@ body {
     // Create chart instance
     var chart = am4core.create("chartdiv", am4charts.XYChart);
     
-    // Add data
-    chart.data = [
-    {
-      "_id": "2010-01",
-      "totalValorOrcadoEstimado": 884728.89,
-      "totalValorLimiteSuperior": 1227000
-    },
-    {
-      "_id": "2010-02",
-      "totalValorOrcadoEstimado": 1915460,
-      "totalValorLimiteSuperior": 2392180.4
-    },
-    {
-      "_id": "2010-03",
-      "totalValorOrcadoEstimado": 185722.25,
-      "totalValorLimiteSuperior": 316557.78
-    },
-    {
-      "_id": "2010-04",
-      "totalValorOrcadoEstimado": 190868.6,
-      "totalValorLimiteSuperior": 221816
-    },
-    {
-      "_id": "2010-05",
-      "totalValorOrcadoEstimado": 118794.15,
-      "totalValorLimiteSuperior": 119388.68
-    },
-    {
-      "_id": "2010-06",
-      "totalValorOrcadoEstimado": 554519.99,
-      "totalValorLimiteSuperior": 612700
-    },
-    {
-      "_id": "2010-07",
-      "totalValorOrcadoEstimado": 401548.82,
-      "totalValorLimiteSuperior": 483323.18
-    },
-    {
-      "_id": "2010-08",
-      "totalValorOrcadoEstimado": 263439.32,
-      "totalValorLimiteSuperior": 319200
-    },
-    {
-      "_id": "2010-09",
-      "totalValorOrcadoEstimado": 161189.03,
-      "totalValorLimiteSuperior": 167527.65
-    },
-    {
-      "_id": "2010-10",
-      "totalValorOrcadoEstimado": 12839.1,
-      "totalValorLimiteSuperior": 13225
-    },
-    {
-      "_id": "2010-11",
-      "totalValorOrcadoEstimado": 744447.18,
-      "totalValorLimiteSuperior": 755726.32
-    },
-    {
-      "_id": "2010-12",
-      "totalValorOrcadoEstimado": 308368.49,
-      "totalValorLimiteSuperior": 261591.9
-    },
-    {
-      "_id": "2011-01",
-      "totalValorOrcadoEstimado": 473800,
-      "totalValorLimiteSuperior": 453240
-    }
-    ]
+    const axios = require('axios');
+    axios.get('./grafico-teste.json').then( function(resp){
+      console.log(resp.data._id)});
     
     // Create axes
     var dateAxis = chart.xAxes.push(new am4charts.DateAxis());

@@ -1,0 +1,67 @@
+[
+    {
+      "_id": "2010-01",
+      "totalValorOrcadoEstimado": 884728.89,
+      "totalValorLimiteSuperior": 1227000
+    },
+    {
+      "_id": "2010-02",
+      "totalValorOrcadoEstimado": 1915460,
+      "totalValorLimiteSuperior": 2392180.4
+    },
+    {
+      "_id": "2010-03",
+      "totalValorOrcadoEstimado": 185722.25,
+      "totalValorLimiteSuperior": 316557.78
+    },
+    {
+      "_id": "2010-04",
+      "totalValorOrcadoEstimado": 190868.6,
+      "totalValorLimiteSuperior": 221816
+    },
+    {
+      "_id": "2010-05",
+      "totalValorOrcadoEstimado": 118794.15,
+      "totalValorLimiteSuperior": 119388.68
+    },
+    {
+      "_id": "2010-06",
+      "totalValorOrcadoEstimado": 554519.99,
+      "totalValorLimiteSuperior": 612700
+    },
+    {
+      "_id": "2010-07",
+      "totalValorOrcadoEstimado": 401548.82,
+      "totalValorLimiteSuperior": 483323.18
+    },
+    {
+      "_id": "2010-08",
+      "totalValorOrcadoEstimado": 263439.32,
+      "totalValorLimiteSuperior": 319200
+    },
+    {
+      "_id": "2010-09",
+      "totalValorOrcadoEstimado": 161189.03,
+      "totalValorLimiteSuperior": 167527.65
+    },
+    {
+      "_id": "2010-10",
+      "totalValorOrcadoEstimado": 12839.1,
+      "totalValorLimiteSuperior": 13225
+    },
+    {
+      "_id": "2010-11",
+      "totalValorOrcadoEstimado": 744447.18,
+      "totalValorLimiteSuperior": 755726.32
+    },
+    {
+      "_id": "2010-12",
+      "totalValorOrcadoEstimado": 308368.49,
+      "totalValorLimiteSuperior": 261591.9
+    },
+    {
+      "_id": "2011-01",
+      "totalValorOrcadoEstimado": 473800,
+      "totalValorLimiteSuperior": 453240
+    }
+  ]
