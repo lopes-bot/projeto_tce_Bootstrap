@@ -1,0 +1,173 @@
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Dashboard</title>
+
+    <!-- Principal CSS do Bootstrap -->
+
+
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+    <!-- Estilos customizados para esse template -->
+    <link href="dashboard.css" rel="stylesheet">
+  <style type="text/css">/* Chart.js */
+@-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}</style></head>
+
+  </head>
+  <body>
+
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+/* Toggle Styles */
+
+#viewport {
+  padding-left: 250px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#content {
+  width: 100%;
+  position: relative;
+  margin-right: 0;
+}
+
+/* Sidebar Styles */
+
+#sidebar {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 250px;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #37474F;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#sidebar header {
+  background-color: #263238;
+  font-size: 20px;
+  line-height: 52px;
+  text-align: center;
+}
+
+#sidebar header a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+
+#sidebar header a:hover {
+  color: #fff;
+}
+
+
+.nav li{
+    list-style: none; /*Tira os pontos da lista*/
+}
+
+#sidebar .nav a{
+  background: none;
+  border-bottom: 1px solid #455A64;
+  color: #CFD8DC; /* cor da letra */
+  font-size: 14px;
+  padding: 16px 24px;
+}
+
+#sidebar .nav a:hover{
+  background: none;
+  color: #ECEFF1;
+}
+
+#sidebar .nav a i{
+  margin-right: 16px;
+}
+    </style>
+
+    <div id="viewport">
+        <!-- Sidebar -->
+        <div id="sidebar">
+          <header>
+            <a href="#" style="color: rgb(37,131,69);">Quadro de licitações</a>
+          </header>
+          <ul class="nav">
+            <li>
+              <a href="#">
+                <i class="zmdi zmdi-view-dashboard"></i> Editais de Licitacoes
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Dotacoes Licitacoes
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="zmdi zmdi-widgets"></i> contratados
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="zmdi zmdi-calendar"></i> contratos
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="zmdi zmdi-info-outline"></i> licitacoes
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="zmdi zmdi-settings"></i> licitantes
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="zmdi zmdi-comment-more"></i> itens licitacoes
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Content -->
+        <div id="content">
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <ul class="nav navbar-nav navbar-right">
+    
+
+              </ul>
+            </div>
+          </nav>
+          <div class="container-fluid">
+            AQUI FICA O GRAFICO 
+          </div>
+        </div>
+      </div>
+
+
+  </body>
+</html>
+    
+    
+    
